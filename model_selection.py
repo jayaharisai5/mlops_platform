@@ -1,6 +1,6 @@
 from feature_engineering import feature_engineering
 
-from collections import Iterable
+
 data = feature_engineering()
 print(data.head())
 from pycaret.classification import *

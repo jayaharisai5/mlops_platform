@@ -9,7 +9,7 @@ pipeline{
         }
         stage("build"){
             steps{
-                git branch: 'main', credentialsId: 'ef70b0d3-000a-4c42-a98f-d2c045e33251', url: 'https://github.com/jayaharisai5/jenkins.git'
+                git branch: 'main', credentialsId: 'ef70b0d3-000a-4c42-a98f-d2c045e33251', url: 'https://github.com/jayaharisai5/mlops_platform.git'
             }
         }
         stage("Load Data"){
